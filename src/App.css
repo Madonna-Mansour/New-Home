@@ -1,0 +1,330 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: ; */
+}
+.carousell{
+  height: 800px;
+  text-align: center;
+  position: relative;
+}
+.carousell img{
+  height: 750px;
+  width: 95%;
+ 
+}
+
+.absu{
+  position: absolute;
+  z-index: 1;
+  top: 35%;
+  left: 25%;
+  color: white;
+  width: 550px;
+  font-size: 50px;
+}
+
+.reglar{
+  background-color: orangered;
+  color: white;
+  width: 300px;
+  height: 70px;
+  border: none;
+  padding: 10px;
+  margin: 100px 0;
+  font-size: 20px;
+}
+.reglar:hover{
+  border:2px solid orangered;
+  background-color: white;
+  color: orangered;
+}
+.centerbutt{
+text-align: center;
+}
+.bgyallo{
+background-color:  rgb(244, 212, 4);
+position: relative;
+height: 500px;
+margin-bottom: 100px;
+margin: 0 80px ;
+}
+.cuple{
+  width: 850px;
+  height: 500px;
+  position: absolute;
+  bottom: 7%;
+  left: 3%;
+  margin-top: 150px;
+
+}
+.cuple-both button{
+  background-color: rgb(244, 212, 4);
+  border: none;
+  height: 70px;
+  width: 200px;
+  color: white;
+  font-size: 20px;
+}
+.cuple-both button:hover{
+  border:2px solid  rgb(244, 212, 4);
+  background-color: white;
+  color:  rgb(244, 212, 4);
+}
+.back {
+  background-color: rgb(239, 249, 249);
+  height: 750px;
+  padding: 100px 0;
+}
+.backimg{
+  background-image: url(images/main-home-bg-img-new.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 200px;
+}
+.backimg p{
+  font-size: 25px;
+}
+.backimg h1{
+  font-size: 65px;
+}
+/* @media only screen and (max-width: 1024px) {
+  .navbu{
+    visibility: visible;
+
+  }
+} */
+ .how-it h1{
+  font-size: 60px;
+  margin-bottom: 50px;
+  margin-top: 350px;    /* delte*/
+ }
+ .how-it h2{
+  font-size: 32px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+ }
+ .how-it p{
+  color: gray;
+  font-size: 22px;
+  margin-left: 15px;
+
+}
+ .borderright{
+  border-right: 2px solid grey;
+ }
+ .how-it{
+  margin-top: 1150px;
+ }
+ .backThree{
+  height: 850px;
+  background-image: url(images/main-home-img-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  margin-top: 100px;
+ }
+ .d-three{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+
+ }
+
+ .text-three h1{
+  font-size: 85px;
+  color: white;
+  margin-bottom: 30px;
+ }
+ .text-three P{
+  font-size: 35px;
+  color: white;
+ }
+ .card-three{
+  background-color: rgba(223, 221, 221, 0.907);
+  height: 750px;
+  padding: 50px 50px;
+  margin-top: 50px;
+  /* opacity: 0.9; */
+ }
+ .card-three h1{
+font-size: 50px; 
+}
+.card-three p{
+  font-size: 20px; 
+  color: gray;
+  } 
+.card-three input{
+  height: 70px;
+border: none;  
+width: 600px;
+padding: 20px;
+margin-bottom: 30px;
+background-color: white;
+}
+.card-three button{
+  
+  background-color: orangered;
+    color: white;
+    width: 300px;
+    height: 70px;
+    border: none;
+    padding: 10px;
+    margin: 100px 0;
+    font-size: 20px;
+  } 
+  
+  .card-three button:hover{
+    border:2px solid orangered;
+    background-color: white;
+    color: orangered;
+  }
+  .carousellPepole{
+      display: flex;
+      margin-bottom: 100px;
+  }
+  .carousellPepole p{
+    font-size: 22px;
+}
+  .carousellPepole img{
+    margin-right: 30px;
+}
+.d-bic{
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+.d-bic img{
+   height: 70px;
+   margin-right: 50px;
+}
+.d-bic h2{
+ font-size: 40px;
+}
+#backSeven{
+  background-image: url(images/main-home-img-7.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  
+}
+#backSeven p{
+ font-size: 20px;
+}
+.leftside{
+  background-color: rgba(223, 221, 221, 0.941);
+  height: 250px;
+}
+.leftside p{
+  font-size: 20px;
+}
+.leftside input{
+  height: 50px;
+  width: 400px;
+  border: 1px rgb(205, 201, 201) solid;
+  padding: 10px;
+}
+.leftside button{
+  height: 50px;
+  width: 150px;
+  border: none;
+  background-color: orangered;
+  color: white;
+
+}
+.leftside button:hover{
+  border:2px solid orangered;
+  background-color: white;
+  color: orangered;
+}
+.slideCard img{
+height: 350px;
+width: 570px;
+border-radius: 7px;
+margin-bottom: 20px;
+}
+.slideCard hr{
+  width: 570px;
+  }
+.slideCard p{
+   color: rgb(100, 99, 99);
+  }
+  .slideCard a{
+     text-decoration: none;
+     color: black;
+    }
+    .slideCard h4{
+      font-weight: bold;
+    font-size: 30px;
+      }
+.df img{
+    width:25px;
+    height: 70px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.footer{
+  margin-top: 100px;
+  background-color: rgb(246, 246, 246);
+}
+.footer p{
+  font-size: 25px;
+}
+.footer h6{
+  font-size: 25px;
+}
+.df{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.footer a{
+   text-decoration: none;
+   color: black;
+}
+.dfooter{
+  display: flex;
+  justify-content: space-between;
+}
+.dark{
+  caret-color: black;
+  color: white;
+}
+
+.navbar {
+  height: 100px;
+}
+.navbar button{
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  background-color: orange;
+  border: navajowhite;
+  border-radius: 15px;
+  color: white;
+}
+.navbar button:hover{
+background-color: gray;
+}
+.navlink{
+  display: flex;
+  justify-content: space-between;
+}
+.home:hover {
+color: orange;
+margin-right: 50px;
+font-size: 25px;
+}
+.home {
+  color: gray;
+  margin-right: 50px;
+  font-size: 25px;
+  }
+  
