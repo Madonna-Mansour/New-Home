@@ -7,7 +7,7 @@ const SlideSix = () => {
        <Container fluid >
        <Row >
             <Col lg={6} >
-            <h1 style={{fontSize:"75px", margin:"100px 100px "}}>See what others said <b>about us</b> </h1>
+            <h1 style={{fontSize:"55px", margin:"100px 100px "}}>See what others said <b>about us</b> </h1>
             </Col>
           </Row>
        </Container>
