@@ -8,7 +8,7 @@ const SlideOne = () => {
     <div className='back'>
         <Container fluid className='cuple-both'>
           <Row >
-            <Col lg={5} className='bgyallo'>
+            <Col lg={4} className='bgyallo'>
                <img className='cuple' src={cuple} alt="" />
             </Col>
             <Col lg={6} className='backimg my-5 '>
