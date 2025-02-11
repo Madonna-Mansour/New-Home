@@ -48,7 +48,7 @@ const SlidFour = () => {
                 <Col lg={6}>
                 <Row>
                     <Col lg={6}>
-                    <img style={{marginLeft:"150px", borderRadius:"7px"}} src={four1} alt="" />
+                    <img style={{marginLeft:"20px", borderRadius:"7px"}} src={four1} alt="" />
                     </Col>
                     <Col lg={6}>
                       <Row>
