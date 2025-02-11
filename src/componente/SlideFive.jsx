@@ -4,7 +4,7 @@ import five  from '../images/five img.jpg';
 
 const SlideOne = () => {
   return (
-    <div className='back my-5' >
+    <div className='back ' >
         <Container fluid className='cuple-both'>
           <Row >
             <Col lg={4} className='bgyallo'>
